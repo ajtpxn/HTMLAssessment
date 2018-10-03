@@ -1,9 +1,6 @@
 
 /* User Story #1 */
-h2 { color: white; background: darkgreen; text-align: center; padding: 20px; font-family: "Arial", Arial, sans-serif; }
-h3 { color: white; background: darkgreen; text-align: center; padding: 20px; font-family: "Arial", Arial, sans-serif; }
-h4 { color: white; background: darkgreen; text-align: center; padding: 20px; font-family: "Arial", Arial, sans-serif; }
-h5 { color: white; background: darkgreen; text-align: center; padding: 20px; font-family: "Arial", Arial, sans-serif; }
+h2, h3, h4, h5 { color: white; background: darkgreen; text-align: center; padding: 20px; font-family: "Arial", Arial, sans-serif; }
 
 /* User Story #2 */
 table { border-collapse: collapse; }
@@ -21,11 +18,12 @@ li { list-style-type: square }
 blockquote { color: white; background-color: darkgreen; padding: 5px; margin-left: 30px; margin-right: 60px;}
 
 /* User Story #6 */
-#teamRoster li:first-child > ul { background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+#teamRoster > li:first-child { background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
 background-repeat: no-repeat;
 background-size: contain;
  }
-#teamRoster li:last-child > ul { background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
+
+#teamRoster > li:last-child { background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
 background-repeat: no-repeat;
 background-size: contain;
  }
@@ -36,3 +34,6 @@ img { visibility: hidden; }
 #checkbox-grid > li { list-style-type:none; }
 
 body { padding: 40px; }
+
+/* Stretch Goals */
+tr:nth-child(even) { background-color: lightgrey}
