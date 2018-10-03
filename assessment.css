@@ -1,0 +1,31 @@
+
+h2 { color: white; background: darkgreen; text-align: center; padding: 20px; font-family: "Arial", Arial, sans-serif; }
+h3 { color: white; background: darkgreen; text-align: center; padding: 20px; font-family: "Arial", Arial, sans-serif; }
+h4 { color: white; background: darkgreen; text-align: center; padding: 20px; font-family: "Arial", Arial, sans-serif; }
+h5 { color: white; background: darkgreen; text-align: center; padding: 20px; font-family: "Arial", Arial, sans-serif; }
+
+table { border-collapse: collapse; }
+
+td { border: 1px solid black; padding: 5px; text-align: center; }
+th { border: 1px solid black; padding: 5px; text-align: center; color: darkblue}
+
+li { list-style-type: square }
+
+.hyperLink:hover { background-color: darkgreen; padding: 10px; color: white; font-style: normal; text-decoration: none; }
+
+blockquote { color: white; background-color: darkgreen; padding: 5px; margin-left: 30px; margin-right: 60px;}
+
+#teamRoster li:first-child > ul { background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+background-repeat: no-repeat;
+background-size: contain;
+ }
+#teamRoster li:last-child > ul { background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
+background-repeat: no-repeat;
+background-size: contain;
+ }
+
+img { visibility: hidden; }
+
+#checkbox-grid > li { list-style-type:none; }
+
+body { padding: 40px; }
